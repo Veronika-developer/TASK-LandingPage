@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Burger city</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="logo">
+                <img id="imgLogo" src="img/logo.ico" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <div class="left">
+                <img id="imgBurger" src="img/burger.png" alt="">
+            </div>
+            <div class="right">
+                <h1>B.I.G Burger</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Laborum at sit eum dolorum aliquam reprehenderit ea veritatis incidunt tempore sint?</p>
+                <a class="js-tilt" href="#">ORDER NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.js-tilt').tilt({
+            scale: 1.2
+    })
+    </script>
+</body>
+</html>
